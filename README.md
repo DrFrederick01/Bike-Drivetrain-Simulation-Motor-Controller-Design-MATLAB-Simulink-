@@ -30,14 +30,14 @@ This repository includes:
 - No-load Speed: ~225 RPM
 - Torque: Sufficient to drive rear wheel through belt-pulley
 
-**(Insert your image of motor spec sheet or CAD motor assembly)**
+
 
 ### Rear Drivetrain
 - Pulley system simulates rear-wheel motion
 - Timing belt modeled as rigid transmission in Simulink
 - Rear inertia included in system parameters
 
-**(Insert your image of rear drivetrain model in Simulink)**
+<img src="Screenshot_20250903_192228_Gallery.jpg" height="30%" width="30%" />
 
 ---
 
@@ -49,11 +49,11 @@ The simulation model was created in layers:
 3. **Torque to motion conversion**
 4. **Closed-loop speed controller** using a PID
 
-**(Insert your image of full Simulink block diagram)**
+
 
 The PID controller was tuned through trial and error using simulation sweeps to match the performance requirements. This involved tuning gain values to get a stable rise time and minimal overshoot.
 
-**(Insert your image of PID tuning interface or results)**
+<img src="Screenshot_20250903_193109_Gallery.jpg" height="30%" width="30%" />
 
 ---
 
@@ -69,7 +69,7 @@ The PID controller was tuned through trial and error using simulation sweeps to 
 - Optimization was required in block execution settings and solver configurations.
 - A fixed-step solver with adjusted tolerances was chosen for balance between speed and accuracy.
 
-**(Insert your image or GIF of bike simulation running in Simulink)**
+
 
 ### Physical Test & Demonstration
 
@@ -79,8 +79,8 @@ The PID controller was tuned through trial and error using simulation sweeps to 
   - Moving forward in straight lines
   - Withstanding light impact or object collisions
 
-**(Insert GIF of bike balancing on its own)**  
-**(Insert GIF of bike being hit by object and recovering)**
+<img src="GIF_20250903_192548_223.gif" height="30%" width="30%" />
+<img src="GIF_20250903_192631_812.gif" height="30%" width="30%" />
 
 ---
 
