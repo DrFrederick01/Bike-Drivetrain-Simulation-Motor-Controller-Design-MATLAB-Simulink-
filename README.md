@@ -82,32 +82,6 @@ The PID controller was tuned through trial and error using simulation sweeps to 
 <img src="GIF_20250903_192548_223.gif" height="30%" width="30%" />
 <img src="GIF_20250903_192631_812.gif" height="30%" width="30%" />
 
----
-
-## Repository Structure
-```
-📁 Bike-Drivetrain-Controller
-├── SimulinkModels/
-│   ├── bike_rear_motor.slx
-│   ├── PID_controller.slx
-│   └── belt_pulley_subsystem.slx
-├── Images/
-│   ├── drivetrain_diagram.png
-│   ├── simulink_model.png
-│   └── demo_gif_1.gif
-├── README.md
-└── Report.pdf (optional)
-```
-
----
-
-## How to Run
-1. Open `bike_rear_motor.mlproj` in MATLAB
-2. Navigate to the Simulink model `bike_rear_motor.slx`
-3. Run the simulation and observe outputs in the scope blocks
-4. Use the PID Tuner to adjust controller response if needed
-
----
 
 ## Credits
 This work was completed as part of the **Mechatronics Module 5CCE2MCT** at **King's College London**, using hardware and software provided by the **Arduino Engineering Kit Rev2**.
